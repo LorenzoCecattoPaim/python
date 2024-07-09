@@ -1,0 +1,6 @@
+import time
+import pyautogui
+from PIL import Image
+time.sleep(10)
+print(pyautogui.position())
+
