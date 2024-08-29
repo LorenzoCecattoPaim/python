@@ -1,0 +1,6 @@
+n = input('Digite algo: ')
+print(type(n))
+print( 'O que você digitou é numerico:',n.isnumeric())
+print( 'O que você digitou é alfabético:',n.isalpha())
+print( 'O que você digitou é alfabético ou numérico:',n.isalnum())
+print( 'O que você digitou esta em maiúsculo:',n.isupper(2))
