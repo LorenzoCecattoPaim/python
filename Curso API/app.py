@@ -2,7 +2,7 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATANASE_URI']='sqlite:///ecommerce.db'
+app.config['SQLALCHEMY_DATANASE_URI'] ='sqlite:///ecommerce.db'
 
 db=SQLAlchemy(app)
 
@@ -12,6 +12,7 @@ class Product(db.Model):
     name = db.Column(db.String(120), nullable=False)
     price =  db.Column(db.Float, nullable=False)
     description= db.Column(db.Texte,nullable=True)
+    
 @app.route('/')
 def helloWord():
     return 'Hello Word'
