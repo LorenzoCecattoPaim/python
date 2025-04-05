@@ -1,5 +1,6 @@
 def area(l,c):
     print(f'A área de seu terreno {l}X{c} é de {l*c}m²')
+    print('Obrigado por usar!')
 
 
 print('----------PROGRAMA DA ÁREA----------')
